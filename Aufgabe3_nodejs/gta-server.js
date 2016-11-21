@@ -101,6 +101,10 @@ app.get('/geotags', function(req, res) {
     var lon = query["lon"];
     var term = query["term"];
     
+    stringify()
+
+    // sendet JSONarray (daten im standard raius um lat,lon)
+    res.send()
 });
 
 /**
